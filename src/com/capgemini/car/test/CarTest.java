@@ -63,9 +63,9 @@ public class CarTest {
 		car.add(tataCar);
 		
 		Iterator<Car> iterator = car.iterator();
-		assertEquals(chevroletCar, iterator .next());
-		assertEquals(suzukiCar, iterator .next());
-		assertEquals(tataCar, iterator .next());
+		assertEquals(chevroletCar, iterator.next());
+		assertEquals(suzukiCar, iterator.next());
+		assertEquals(tataCar, iterator.next());
 	}
 
 }
